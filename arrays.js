@@ -24,14 +24,15 @@ function accessElementInArray(myArray5, index) {
   return myArray5[parseInt(index, 3)];
 }
 function destructivelyRemoveElementFromBeginningOfArray(myArray6, element) {
-  myArray6.pop();
+  myArray6.shift();
   return myArray6
 }
 function removeElementFromBeginningOfArray(myArray7) {
   return myArray7.slice(1);
 }
 function destructivelyRemoveElementFromEndOfArray(myArray8) {
-  return myArray8.pop(1);
+  myArray8.pop();
+  return myArray8;
 }
 function removeElementFromEndOfArray(myArray9) {
   return myArray9.slice(0, myArray9.length - 1);
