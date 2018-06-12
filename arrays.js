@@ -23,6 +23,7 @@ function destructivelyAddElementToEndOfArray(myArray4, element) {
 function accessElementInArray(myArray5, index) {
   var myArray5 = ["1", "2", "3", "4"];
   console.log(myArray5[3]);
+  return myArray5;
 }
 function destructivelyRemoveElementFromBeginningOfArray(myArray6, element) {
 
