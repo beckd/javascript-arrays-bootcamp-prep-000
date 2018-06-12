@@ -24,7 +24,7 @@ function accessElementInArray(myArray5, index) {
   return myArray5[parseInt(index, 3)];
 }
 function destructivelyRemoveElementFromBeginningOfArray(myArray6, element) {
-  myArray6.pop(0);
+  myArray6.pop();
   return myArray6
 }
 function removeElementFromBeginningOfArray(myArray7) {
