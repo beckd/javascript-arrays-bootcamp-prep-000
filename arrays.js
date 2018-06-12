@@ -25,14 +25,10 @@ function accessElementInArray(myArray5, index) {
   console.log(myArray5[2]);
 }
 function destructivelyRemoveElementFromBeginningOfArray(myArray6, element) {
-  var myArray6 = [1, 2, 3, 4];
-  myArray6.shift(1);
-  return myArray6;
+
 }
 function removeElementFromBeginningOfArray(myArray7, element) {
-  var myArray7 = [1, 2, 3, 4];
-  myArray7.slice(1);
-  return myArray7;
+  
 }
 function destructivelyRemoveElementFromEndOfArray() {
 
