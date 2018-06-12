@@ -20,3 +20,19 @@ function destructivelyAddElementToEndOfArray(myArray4, element) {
   myArray4.push(element);
   return myArray4;
 }
+function accessElementInArray(myArray5, index) {
+  var myArray5 = [1, 2, 3, 4];
+  console.log(myArray5[3]);
+}
+function destructivelyRemoveElementFromBeginningOfArray() {
+
+}
+function removeElementFromBeginningOfArray() {
+
+}
+function destructivelyRemoveElementFromEndOfArray() {
+
+}
+function removeElementFromEndOfArray() {
+
+}
